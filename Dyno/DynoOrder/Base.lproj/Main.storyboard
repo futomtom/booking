@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yAA-s6-Bam">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yAA-s6-Bam">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -522,16 +522,27 @@
                                                         </mask>
                                                     </variation>
                                                 </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15分鐘" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cDq-vR-6mQ">
+                                                    <rect key="frame" x="18" y="63.5" width="114" height="31.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                         </view>
                                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottomMargin" secondItem="cDq-vR-6mQ" secondAttribute="bottom" constant="5" id="7tP-1z-949"/>
                                             <constraint firstItem="WpX-kk-l7E" firstAttribute="leading" secondItem="mtJ-Pj-c7k" secondAttribute="leading" id="Bwc-Xh-APW"/>
+                                            <constraint firstItem="cDq-vR-6mQ" firstAttribute="leading" secondItem="mtJ-Pj-c7k" secondAttribute="leadingMargin" constant="10" id="R0a-mM-Ngi"/>
                                             <constraint firstItem="WpX-kk-l7E" firstAttribute="centerY" secondItem="mtJ-Pj-c7k" secondAttribute="centerY" constant="-10" id="ReR-7f-h7s"/>
+                                            <constraint firstItem="cDq-vR-6mQ" firstAttribute="top" secondItem="WpX-kk-l7E" secondAttribute="bottom" constant="5" id="TEN-tb-lzd"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="cDq-vR-6mQ" secondAttribute="trailing" constant="10" id="Z9m-0t-Ny8"/>
                                             <constraint firstAttribute="trailing" secondItem="WpX-kk-l7E" secondAttribute="trailing" id="j4c-D5-9KB"/>
                                             <constraint firstItem="WpX-kk-l7E" firstAttribute="centerX" secondItem="mtJ-Pj-c7k" secondAttribute="centerX" id="nzP-QM-tZl"/>
                                         </constraints>
                                         <connections>
+                                            <outlet property="SubTitle" destination="cDq-vR-6mQ" id="FoD-C1-9KF"/>
                                             <outlet property="name" destination="WpX-kk-l7E" id="C7L-fj-kZA"/>
                                         </connections>
                                     </collectionViewCell>

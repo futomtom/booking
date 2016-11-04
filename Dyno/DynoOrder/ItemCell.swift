@@ -12,8 +12,8 @@ import UIKit
 class ItemCell: UICollectionViewCell {
     
     @IBOutlet weak var imageV: UIImageView!
-    @IBOutlet weak var name: UILabel!
-   
+    @IBOutlet weak var name: UILabel!   
+    @IBOutlet weak var SubTitle: UILabel!
    
     let colors = [UIColor.blue, UIColor.red, UIColor.yellow, UIColor.cyan, UIColor.gray,UIColor.brown, UIColor.orange ]
     

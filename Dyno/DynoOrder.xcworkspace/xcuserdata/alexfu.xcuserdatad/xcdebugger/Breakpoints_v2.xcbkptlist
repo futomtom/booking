@@ -123,6 +123,68 @@
             endingLineNumber = "20"
             landmarkName = "displayData(item:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DynoOrder.HeaderTableViewCell.__deallocating_deinit"
+                  moduleName = "DynoOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/angela/ios10/booking/Dyno/DynoOrder/tableviewCells.swift"
+                  timestampString = "499934145.898103"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DynoOrder.HeaderTableViewCell.__allocating_init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; DynoOrder.HeaderTableViewCell"
+                  moduleName = "DynoOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/angela/ios10/booking/Dyno/DynoOrder/tableviewCells.swift"
+                  timestampString = "499934145.900356"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DynoOrder.HeaderTableViewCell.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DynoOrder.HeaderTableViewCell&gt;"
+                  moduleName = "DynoOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/angela/ios10/booking/Dyno/DynoOrder/tableviewCells.swift"
+                  timestampString = "499934145.901492"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DynoOrder.HeaderTableViewCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;DynoOrder.HeaderTableViewCell&gt;"
+                  moduleName = "DynoOrder"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/angela/ios10/booking/Dyno/DynoOrder/tableviewCells.swift"
+                  timestampString = "499934145.9026"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -132,13 +194,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DynoOrder/putOrderVC.swift"
-            timestampString = "499585617.399453"
+            timestampString = "499932382.622976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "186"
-            endingLineNumber = "186"
-            landmarkName = "putOrderVC"
-            landmarkType = "4">
+            startingLineNumber = "185"
+            endingLineNumber = "185"
+            landmarkName = "collectionView(_:layout:insetForSectionAt:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -228,11 +290,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DynoOrder/putOrderVC.swift"
-            timestampString = "499585617.399453"
+            timestampString = "499932382.622976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "orderSwitch_ValueChange(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -275,13 +337,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DynoOrder/putOrderVC.swift"
-            timestampString = "499585617.399453"
+            timestampString = "499932382.622976"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
-            landmarkName = "StepperValueChange(_:)"
-            landmarkType = "7">
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "putOrderVC"
+            landmarkType = "4">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

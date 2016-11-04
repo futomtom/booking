@@ -59,13 +59,12 @@ class putOrderVC: UIViewController {
         
         (collectionView.collectionViewLayout as! UICollectionViewFlowLayout).sectionHeadersPinToVisibleBounds = true
         
-        LoadData()
+        LoadProducts()
     }
     
-    func LoadData() {
-     
-        print(products.count)
-   
+    func LoadProducts() {
+     products = ["按摩1","按摩2","按摩3","按摩4","按摩5"]
+        
     
     }
     
@@ -212,12 +211,12 @@ extension putOrderVC {
     
     fileprivate func segmentioContent() -> [SegmentioItem] {
         return [
-            SegmentioItem(title: "菜", image: UIImage(named: "tornado")),
-            SegmentioItem(title: "湯", image: UIImage(named: "earthquakes")),
-            SegmentioItem(title: "素", image: UIImage(named: "heat")),
-            SegmentioItem(title: "點心", image: UIImage(named: "eruption")),
-            SegmentioItem(title: "飲料", image: UIImage(named: "floods")),
-            SegmentioItem(title: "飯", image: UIImage(named: "wildfires"))
+            SegmentioItem(title: "師傅1", image: UIImage(named: "tornado")),
+            SegmentioItem(title: "師傅2", image: UIImage(named: "earthquakes")),
+            SegmentioItem(title: "師傅3", image: UIImage(named: "heat")),
+            SegmentioItem(title: "師傅4", image: UIImage(named: "eruption")),
+            SegmentioItem(title: "師傅5", image: UIImage(named: "floods")),
+            SegmentioItem(title: "不指定", image: UIImage(named: "wildfires"))
         ]
     }
     
